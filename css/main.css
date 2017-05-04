@@ -17,8 +17,14 @@
    text-align: center;
  }
 
+ .titulos {
+   text-align: center;
+ }
  .ancho {
    height: 150px;
+ }
+ .ancho2 {
+   height: 75px;
  }
 
  .fondo {
