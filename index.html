@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Freelancer</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -11,7 +13,7 @@
 </head>
 <body>
 	<!-- Escribe tu código aquí -->
-	<section class="container">
+	<!-- Nav -->
 		<section  id="barra" class="container" >
 			<header class="row">
 				<nav class="col-12">
@@ -28,80 +30,117 @@
 				</nav>
 			</header>
 		</section>
-
-		<!-- Start Bootstrap -->
-		<section id="portfolio" class="row fondo">
-			<section class="col-12 ">
-				<img src="assets/images/profile.png" alt="profile">
-			</section>
-			<section class="col-12 fondo">
-				<h1 class="titulo" >START BOOTSTRAP</h1>
-			</section>
-			<section class="col-12 fondo">
-				<hr>
-			</section>
-			<section class="col-12 fondo">
-				<h4 class"texto">Web Developer - Graphic Artist - User Expirience Designer</h4>
+		<!-- Start Bootstrap (Portada) -->
+		<section id="portada" class="container">
+			<section class="row fondo">
+				<section class="col-12 ancho"></section>
+				<section class="col-12 ">
+					<img src="assets/images/profile.png" alt="profile">
+				</section>
+				<section class="col-12 fondo">
+					<h1 class="titulo" >START BOOTSTRAP</h1>
+				</section>
+				<section class="col-12 fondo">
+					<hr>
+				</section>
+				<section class="col-12 fondo">
+					<h4 class"texto">Web Developer - Graphic Artist - User Expirience Designer</h4>
+				</section>
+				<section class="col-12 ancho"></section>
 			</section>
 		</section>
 			<!-- Portfolio -->
-			<section class="row">
-				<section class="col-12">
-					<h2>PORTFOLIO</h2>
+			<section id="portafolio" class="container">
+				<section class="row">
+					<section class="col-12">
+						<h2>PORTFOLIO</h2>
+					</section>
+				</section>
+				<section class="row">
+					<section class="col-12">
+						<hr>
+					</section>
+				</section>
+				<section class="row">
+					<section class="col-med"></section>
+					<section class="col-3">
+						<img src="assets/images/portfolio/cabin.png" alt="cabin" class="imgPortfolio">
+					</section>
+					<section class="col-3">
+						<img src="assets/images/portfolio/cake.png" alt="cake" class="imgPortfolio">
+					</section>
+					<section class="col-3">
+						<img src="assets/images/portfolio/circus.png" alt="circus" class="imgPortfolio">
+					</section>
+					<section class="col-med"></section>
+				</section>
+				<section class="row">
+					<section class="col-med"></section>
+					<section class="col-3">
+						<img src="assets/images/portfolio/game.png" alt="game" class="imgPortfolio">
+					</section>
+					<section class="col-3">
+						<img src="assets/images/portfolio/safe.png" alt="safe" class="imgPortfolio">
+					</section>
+					<section class="col-3">
+						<img src="assets/images/portfolio/submarine.png" alt="submarine" class="imgPortfolio">
+					</section>
+					<section class="col-med"></section>
 				</section>
 			</section>
-			<section class="row">
-				<section class="col-12">
-					<hr>
+			<!-- About -->
+				<section id="about" class="container">
+        	<section class="row">
+            <section class="col-12">
+              <h2 class="align texto text-uppercase pb-0">About</h2>
+              <hr class="hr-star">
+            </section>
+            <section class="row">
+              <section class="col-2"></section>
+                <section class="col-4 textos-p">
+                  <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+                  </p>
+              	</section>
+                <section class="col-4 textos-p">
+                  <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+                  </p>
+                </section>
+                <section class="col-2"></section>
+            </section>
+            <section class="row">
+              <section class="col-5"></section>
+              <section class="col-3">
+                <button class="btn-download"><i class="fa fa-download"></i> Download Theme</button>
+              </section>
+              <section class="col-4"></section>
+            </section>
+        </section>
+    </section>
+
+				<!--
+				<section class="row">
+					<section class="col-12">
+						<h2>ABOUT</h2>
+					</section>
+					<section class="col-12">
+						<section class="col-2"></section>
+						<p>
+							Freelancer is a free bootstrap theme created by Start Bootstrap.
+							The download includes the complete source files including HTML,
+							CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+						</p>
+						<p>
+							Whether you're a student looking to showcase your work, a professional looking to attract clients,
+							or a graphic artist looking to share your projects, this template is the perfect starting point!
+						</p>
+						<section class="col-2"></section>
+					</section>
+					</section>
+					<section class="col-12">
+						<button type="button" name="button"></button>
+					</section>
 				</section>
-			</section>
-			<section class="row">
-				<section class="col-med"></section>
-				<section class="col-3">
-					<img src="assets/images/portfolio/cabin.png" alt="cabin" class="imgPortfolio">
-				</section>
-				<section class="col-3">
-					<img src="assets/images/portfolio/cake.png" alt="cake" class="imgPortfolio">
-				</section>
-				<section class="col-3">
-					<img src="assets/images/portfolio/circus.png" alt="circus" class="imgPortfolio">
-				</section>
-				<section class="col-med"></section>
-			</section>
-			<section class="row">
-				<section class="col-med"></section>
-				<section class="col-3">
-					<img src="assets/images/portfolio/game.png" alt="game" class="imgPortfolio">
-				</section>
-				<section class="col-3">
-					<img src="assets/images/portfolio/safe.png" alt="safe" class="imgPortfolio">
-				</section>
-				<section class="col-3">
-					<img src="assets/images/portfolio/submarine.png" alt="submarine" class="imgPortfolio">
-				</section>
-				<section class="col-med"></section>
-			</section>
-			<section class="row">
-				<section class="col-12">
-					<h2>ABOUT</h2>
-				</section>
-				<section class="col-12">
-					<section class="col-2"></section>
-					<p>
-						Freelancer is a free bootstrap theme created by Start Bootstrap.
-						The download includes the complete source files including HTML,
-						CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
-					</p>
-					<p>
-						Whether you're a student looking to showcase your work, a professional looking to attract clients,
-						or a graphic artist looking to share your projects, this template is the perfect starting point!
-					</p>
-					<section class="col-2"></section>
-				</section>
-				</section>
-				<section class="col-12">
-					<button type="button" name="button"></button>
-				</section>
+				-->
 			</section>
 			<!-- Contac me -->
 			<section id="contactMe" class="container">
@@ -111,7 +150,12 @@
 				<section class="row">
 					<section class="col-2"></section>
 					<section class="col-8">
-						
+						<form class="" action="index.html" method="post">
+							<input type="text" name="name" placeholder="Name" width="100%">
+							<input type="text" name="email" placeholder="Email address">
+							<input type="text" name="phone" placeholder="Phone Number">
+							<textarea name="name" rows="8" cols="100" placeholder="Message"></textarea>
+						</form>
 					</section>
 					<section class="col-2"></section>
 				</section>
@@ -126,21 +170,22 @@
 				</section>
 				<section class="col-4">
 					<h1 class="txtContacto">AROUND THE WEB</h1>
-
-
+					<i class="fa fa-facebook-square iconosFooter" aria-hidden="true"></i>
+					<i class="fa fa-google-plus-square iconosFooter" aria-hidden="true"></i>
+					<i class="fa fa-twitter-square iconosFooter" aria-hidden="true"></i>
+					<i class="fa fa-linkedin-square iconosFooter" aria-hidden="true"></i>
+					<i class="fa fa-dribbble iconosFooter" aria-hidden="true"></i>
 				</section>
 				<section class="col-4">
 					<h1 class="txtContacto">ABOUT FREELANCER</h1>
 					<p>Freelance is a free to use, open source <br> Bootstrap theme created by
-						<a href="#" class="linkFooter">Start Bootstrap</a></p>
+						<a href="#" class="linkFooter">Start Bootstrap</a>.</p>
 				</section>
 			</section>
 			<section class="col-12 copy">
 				<h5>Copyright &#169; Your Website 2016</h5>
 			</section>
 		</footer>
-	</section>
-
 	<!-- Enlaza aquí tu archivo JS -->
 
 </body>
