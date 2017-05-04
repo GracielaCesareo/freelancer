@@ -1,6 +1,10 @@
 /*
  * Estilos de tu proyecto
  */
+
+ #barra {
+   position: fixed;
+ }
  header {
    background-color: #2C3E50;
    font-family: 'Montserrat',sans-serif;
@@ -10,6 +14,7 @@
  a {
    color: #FFF;
    text-decoration: none;
+   text-align: center;
  }
 
  .fondo {
@@ -37,11 +42,24 @@
    width: 100%;
    height: 100%;
  }
+ footer {
+   text-align: center;
+   color: #FFF;
+ }
 
  .contacto {
+   padding: 70px;
    background-color: #2C3E50;
  }
 
- footer {
-   background-color: #233140;
- }
+.copy {
+  background-color: #233140;
+}
+
+.txtContacto {
+  margin-bottom: 30px;
+}
+
+.linkFooter {
+  color: #18BC9C;
+}
