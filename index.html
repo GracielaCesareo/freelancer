@@ -3,8 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Freelancer</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -13,23 +12,26 @@
 <body>
 	<!-- Escribe tu código aquí -->
 	<section class="container">
-		<header class="row">
-			<nav class="col-12">
-				<section class="col-1">
-				</section>
-				<section class="col-3">
-					<h2>START BOOTSTRAP</h1>
-				</section>
-				<section class="col-4"></section>
-				<a href="#" class="col-1">PORTFOLIO</a>
-				<a href="#" class="col-1">ABOUT</a>
-				<a href="#" class="col-1">CONTACT</a>
-				<section class="col-1">
-			</nav>
-		</header>
+		<section  id="barra" class="container" >
+			<header class="row">
+				<nav class="col-12">
+					<section class="col-1">
+					</section>
+					<section class="col-3">
+						<h2>START BOOTSTRAP</h1>
+					</section>
+					<section class="col-4"></section>
+					<a href="#" class="col-1">PORTFOLIO</a>
+					<a href="#" class="col-1">ABOUT</a>
+					<a href="#" class="col-1">CONTACT</a>
+					<section class="col-1">
+				</nav>
+			</header>
+		</section>
+
 		<!-- Start Bootstrap -->
-		<section class="row">
-			<section class="col-12 fondo">
+		<section id="portfolio" class="row fondo">
+			<section class="col-12 ">
 				<img src="assets/images/profile.png" alt="profile">
 			</section>
 			<section class="col-12 fondo">
@@ -101,15 +103,42 @@
 					<button type="button" name="button"></button>
 				</section>
 			</section>
-			<section class="row">
-				<h1>CONTACT ME</h1>
+			<!-- Contac me -->
+			<section id="contactMe" class="container">
+				<section class="row">
+					<h1>CONTACT ME</h1>
+				</section>
+				<section class="row">
+					<section class="col-2"></section>
+					<section class="col-8">
+						
+					</section>
+					<section class="col-2"></section>
+				</section>
 			</section>
+
+			<!-- Footer -->
+			<footer id="footer" class="container">
 			<section class="row contacto">
-				kofsdjcsdklcmsx
+				<section class="col-4">
+					<h1 class="txtContacto">LOCATION</h1>
+					<p>3481 Melrose Place <br> Beverly Hills, CA 90210</p>
+				</section>
+				<section class="col-4">
+					<h1 class="txtContacto">AROUND THE WEB</h1>
+
+
+				</section>
+				<section class="col-4">
+					<h1 class="txtContacto">ABOUT FREELANCER</h1>
+					<p>Freelance is a free to use, open source <br> Bootstrap theme created by
+						<a href="#" class="linkFooter">Start Bootstrap</a></p>
+				</section>
 			</section>
-			<footer class="row">
-				lkmcklxcmslkc
-			</footer>
+			<section class="col-12 copy">
+				<h5>Copyright &#169; Your Website 2016</h5>
+			</section>
+		</footer>
 	</section>
 
 	<!-- Enlaza aquí tu archivo JS -->
