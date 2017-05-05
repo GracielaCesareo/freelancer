@@ -9,12 +9,22 @@
    background-color: #2C3E50;
    font-family: 'Montserrat',sans-serif;
    color: #FFF;
+   padding: 10px;
  }
 
  a {
    color: #FFF;
    text-decoration: none;
    text-align: center;
+ }
+
+ .start {
+   font-size: 28px;
+ }
+
+ .txtLink {
+   font-size: 14px;
+   margin-top: 10px;
  }
 
  .titulos {
@@ -27,25 +37,60 @@
    height: 75px;
  }
 
+hr {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+    color: white;
+}
+
+hr.star-light:after {
+    /*background-color: #18BC9C;*/
+    /* color: #fff; */
+}
+
+hr.star-light:after, hr.star-primary:after {
+    content: "\f005";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    font-size: 2em;
+    padding: 0 .25em;
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+hr:after {
+    content: "\f005";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.1em;
+    font-size: 2em;
+    padding: 0 .25em;
+    background: #18bc9c;
+    top: -18px;
+    color: white;
+}
+
+
  .fondo {
    background-color: #18BC9C;
+   font-family: Montserrat,sans-serif;
    text-align: center;
-   font-family: 'Montserrat',sans-serif;
    color: #FFF;
  }
 
  .titulo {
    font-size: 73px;
- }
-
- hr {
-   width: 30%;
-   color: : #FFF;
-   margin: auto;
- }
-
- .texto {
-   font-family: 'Lato', sans-serif;
  }
 
  .imgPortfolio {
@@ -57,38 +102,22 @@
    background: #18BC9C;
    color: #fff;
  }
- .hr-star {
-   font-family: font-awesome;
-   height: 5px;
-   border: 3px solid #fff;
-   max-width: 250px;
-   text-align: center;
- }
- .hr-star::after{
-   content: "☆";
-   background: #18BC9C;
-   font-size: 30px;
-   color: #fff;
-   text-align: center;
-   position: relative;
-   top: -25px;
-   padding: 5px;
- }
+
  .texto {
-   font-family: Montserrat;
-   font-size: 2.5em;
+   font-family: Montserrat,sans-serif;
+   font-size: 42px;
    font-weight: bold;
    margin-bottom: 30px;
    letter-spacing: 1px;
  }
  .textos-p {
-   font-family: lato;
+   font-family: Lato,sans-serif;
    font-size: 20px;
    letter-spacing: 1px;
  }
  .btn-download {
    font-size: 20px;
-   font-family: lato;
+   font-family: Lato,sans-serif;
    border-radius: 6px;
    background: #18bc9c;
    color: #fff;
@@ -117,6 +146,7 @@
 }
 
 .txtContacto {
+  font-family: Montserrat,sans-serif;
   margin-bottom: 30px;
 }
 
@@ -130,4 +160,8 @@
 
 .iconosFooter {
   font-size: 48px;
+}
+
+.txtFooter {
+  font-family: Lato,sans-serif;
 }
